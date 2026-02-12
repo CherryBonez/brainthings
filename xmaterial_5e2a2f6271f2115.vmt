@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/mwiii/bigbrain/head/xmaterial_5e2a2f6271f2115"
+    "$bumpmap" "models/mwiii/bigbrain/head/xmaterial_5e2a2f6271f2115_n"
+    "$phongexponenttexture" "models/mwiii/bigbrain/head/xmaterial_5e2a2f6271f2115_spec"
+    "$nodecal" "1"
+    "$translucent" "1"
+    "$alpha" "1"
+
+    // Use these settings for better control over transparency
+    "$additive" "1"
+    "$alphatest" "1"
+    
+    "$selfillum" "1"
+    "$selfillumtint" "[0 1 1]"
+    
+    /////////////////
+    "$color2" "[0.83 0.83 0.83]" //do not touch this
+    /////////////////
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "10" //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    /////////////////
+    "$normalmapalphamask" "1" //do not touch this
+    /////////////////
+}
